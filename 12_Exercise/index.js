@@ -5,12 +5,13 @@
 
 const numberInfo = function(num1,num2) {
     if(num1%3==0 || num2%7==0) {
-        return true  
+        return true;
     } else {
-        return false
+        return false;
     }
 }
-console.log(numberInfo(10,21));
+console.log(numberInfo(9,10));
+console.log(numberInfo(10,20));
 
 const n1 = 20;
 const n2 = 21;
