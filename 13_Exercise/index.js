@@ -1,6 +1,9 @@
-// Write a JavaScript program to create a string from a given string. This is done by taking the last 3 characters and adding them at both the front and back. The string length must be 3 or more.
 
-// This JavaScript program creates a new string from a given string by taking its last three characters and appending them both at the front and back. It first checks if the length of the given string is three or more characters to ensure the operation is valid. Then, it extracts the last three characters and concatenates them with the original string, forming the desired result.
+// Find Largest of Three Integers
+
+//Write a JavaScript program to find the largest of three given integers.
+
+//This JavaScript program takes three integers as input and determines the largest among them. It compares the integers using conditional statements and returns the highest value.
 
 
 const a = 800;
