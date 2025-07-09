@@ -23,5 +23,4 @@ const mainStr = function(str1) {
         return false;
     }
 }
-
 console.log(mainStr("JavaScript"));
