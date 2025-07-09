@@ -7,9 +7,7 @@
 const givenArray = [10,20,30];
 
 const result = givenArray.map((str) => {
-    return givenArray.charAr(0)
-
-
+    return `$${str}`
 })
 console.log(result);
 
