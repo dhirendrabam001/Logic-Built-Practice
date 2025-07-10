@@ -15,6 +15,8 @@ if(newStr.includes(findChar)) {
     
 }
 
+// Using function
+
 const char = function(str) {
     const findChr = "h";
     const resultStr = str.slice(1,4);
