@@ -4,17 +4,17 @@
 
 // This JavaScript program calculates the sum of two given integers. If the sum falls within the range of 50 to 80 (inclusive), it returns 65; otherwise, it returns 80.
 
-// const sum1 = 40;
-// const sum2 = 30;
+const sum1 = 40;
+const sum2 = 30;
 
-// const total = sum1 + sum2;
-// console.log(total);
-// if(total>=50 && total<= 80) {
-//     console.log("65"); 
-// } else {
-//     console.log("80");
+const total = sum1 + sum2;
+console.log(total);
+if(total>=50 && total<= 80) {
+    console.log("65"); 
+} else {
+    console.log("80");
     
-// }
+}
 
 // using function
 const result = function(num1,num2) {
