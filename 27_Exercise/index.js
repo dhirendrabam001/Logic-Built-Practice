@@ -4,22 +4,7 @@
 
 // The program converts the first three characters of a given string to lowercase if the string length is 3 or more. If the string length is less than 3, it converts the entire string to uppercase.
 
-// const str = "Dhirendra";
-// // const result = str.slice(0,3)
-// // console.log(result);
-// if(str.length<=10) {
-//     console.log(str.toUpperCase()); 
-// } else {
-//     console.log("Error");
-    
-// } 
-// const frontInfo = str.slice(0,3).toLowerCase();
-// console.log(frontInfo);
-// const backInfo = str.slice(3).toUpperCase();
-// console.log(backInfo);
 
-// const result = frontInfo.concat(backInfo);
-// console.log(result);
 
 const mainInfo = function(str) {
     if(str.length<3) {
