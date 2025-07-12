@@ -5,23 +5,23 @@
 // This JavaScript program checks whether from three given non-negative integers, two or all of them have the same rightmost digit. It examines the last digit of each number and compares them to determine if they match, returning true if there's a match and false otherwise.
 
 
-// const n1 = 10;
-// const n2 = 20;
-// const n3 = 31;
-// const result1 = n1.toString().slice(-1);
-// console.log(result1);
-// const result2 = n2.toString().slice(-1);
-// console.log(result2);
-// const result3 = n3.toString().slice(-1);
-// console.log(result3);
+const n1 = 10;
+const n2 = 20;
+const n3 = 31;
+const result1 = n1.toString().slice(-1);
+console.log(result1);
+const result2 = n2.toString().slice(-1);
+console.log(result2);
+const result3 = n3.toString().slice(-1);
+console.log(result3);
 
-// if(result1 === result2 && result2 === result3 || result1 === result2 || result2 === result3 || result3=== result1) {
-//     console.log("true");
+if(result1 === result2 && result2 === result3 || result1 === result2 || result2 === result3 || result3=== result1) {
+    console.log("true");
     
-// } else {
-//     console.log("false");
+} else {
+    console.log("false");
     
-// }
+}
 
 // Using function
 const lastResult = function(a,b,c) {
