@@ -30,8 +30,8 @@ const resultInfo = function(a,b) {
     }
 }
 
-console.log(resultInfo(7,20));
-console.log(resultInfo(14,22));
-console.log(resultInfo(8,9));
+console.log(resultInfo(7,20)); // true
+console.log(resultInfo(14,22)); // false bcuz both condition are true ! return false
+console.log(resultInfo(8,9)); // false not match 
 
 
