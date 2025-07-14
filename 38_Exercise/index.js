@@ -6,7 +6,7 @@
 
 const str = "hello dhirendra what are you doing";
 
-const words = str.split( " ");
+const words = str.split(" ");
 let result = "";
 for(i=0; i<words.length; i++) {
     const word = words[i];
