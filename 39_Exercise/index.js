@@ -13,7 +13,7 @@ const result = newStr.sort();
 const finalRes = result.join("")
 console.log(finalRes);
 
-
+// using function
 const main = function(str1) {
     return str1.split("").sort().join();
 }
